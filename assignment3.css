@@ -1,0 +1,46 @@
+/* CSS */
+
+p {
+    color: #ff0000;
+    background-color: #000000;   
+  }
+
+  #specialid {
+    color: orange;
+    background-color: #000000;
+  }
+  .specialp{
+    color: rgb(98, 255, 0);
+    background-color: #000000;
+  }
+  #divexample {
+    color: rgb(157, 0, 255);
+    background-color: #000000; 
+  }
+.spanstyle {
+    Color: rgb(0, 255, 255);
+}
+.specialx {
+    color: rgb(255, 0, 195);
+    background-color: #000000;
+}
+
+a {
+    color: #ff0000;
+  }
+  
+  a:link {
+    color: #00ff00;
+  }
+  
+  a:visited {
+    color: #0000ff;
+  }
+  
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }    
