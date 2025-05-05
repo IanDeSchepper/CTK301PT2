@@ -1,7 +1,6 @@
 /* Background Image */
 body {
     background: url('back.jpg');
-    background-size: cover;
     margin: 0;
     font-family: Helvetica, sans-serif;
   }
@@ -12,13 +11,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1200px;
-    height: 1300px;
+    width: 1000px;
+    height: 900px;
     margin: 20px auto;
     background: white;
     border: 5px solid black;
     padding: 20px;
-    background: url('aboutme.png');
+    background: url('contruction.png'),url('background');
     background-size: 100% auto,cover;
     background-repeat: no-repeat,no-repeat;
     background-position: center,center;
@@ -54,7 +53,6 @@ body {
     transition: background-color 0.3s ease-in-out;
     font-weight: bold;
     position: relative;
-    text-decoration: underline;
   }
   
   /* Hover Effect - Darker Red */
@@ -65,52 +63,39 @@ body {
   /* Text Positioning */
   
   /* Moves text towards the upper left */
-  .first {
+  .topleft {
     text-align: center;
+    padding-left: 5px;
+    padding-top: 5px;
     position:absolute;
-    top: 40px;
-    left: 20px;
+    top: 90px;
+    left: 110px;
   }
   
   /* Moves text towards the upper right */
-  .second {
+  .topright {
     text-align: center;
-    position:absolute;
-    top: 40px;
-    left: 210px;
-    color: white;
+    padding-right: 5px;
+    padding-top: 5px;
+    bottom: 350px;
+    left: 450px;
   }
   
   /* Moves text towards the bottom left */
-  .third {
+  .bottomleft {
     text-align: center;
-    position:absolute;
-    top: 40px;
-    left: 390px; 
+    padding-left: 5px;
+    padding-bottom: 5px;
+    top: 200px;
+    right: 470px;
   }
   
   /* Moves text towards the bottom right */
-  .fourth {
+  .bottomright {
     text-align: center;
-    position:absolute;
-    top: 40px;
-    left: 640px;
-  }
-  .fith {
-    text-align: center;
-    position:absolute;
-    top: 40px;
-    left: 820px;
-  }
-  .six {
-    text-align: center;
-    position:absolute;
-    top: 40px;
-    left: 1050px;
-  }
-  .videomover{
-    top: 500px;
-    left: 20px;
-    position:absolute;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    top: 250px;
+    left: 200px;
   }
   
